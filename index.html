@@ -1,0 +1,34 @@
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>  
+      <link rel="stylesheet" href="main.css">
+      <title>電卓</title>
+    </head>
+    <body>
+      <div class = "box">
+        <div class = "display" id = "output"></div>
+        <div class = "btn-box">
+          <button onclick = "reset()" class = "ac-btn" >AC</button>
+          <button onclick = "operator(this)">/</button>
+          <button onclick = "set(this)">9</button>
+          <button onclick = "set(this)">8</button>
+          <button onclick = "set(this)">7</button>
+          <button onclick = "operator(this)">*</button>
+          <button onclick = "set(this)">6</button>
+          <button onclick = "set(this)">5</button>
+          <button onclick = "set(this)">4</button>
+          <button onclick = "operator(this)">-</button>
+          <button onclick = "set(this)">3</button>
+          <button onclick = "set(this)">2</button>
+          <button onclick = "set(this)">1</button>
+          <button onclick = "operator(this)" class = "plus-btn">+</button>
+          <button onclick = "set(this)">0</button>
+          <button onclick = "operator(this)">.</button>
+          <button onclick = "calc(this)">=</button>
+        </div>
+      </div>
+      <script src="main.js"></script>
+    </body>
+  </html>
